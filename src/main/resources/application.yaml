@@ -1,0 +1,21 @@
+
+spring.jpa:
+  database: POSTGRESQL
+  hibernate.ddl-auto: create
+  show-sql: true
+
+jwt:
+  secret: 'super_sercret_rai'
+  expiration: 86400000
+
+spring.datasource:
+  driverClassName: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/whereismypetdb
+  username: postgres
+  password: postgres
+
+google:
+  firebase:
+    token: cc1DtdSwTTu3luX4uqmx8K:APA91bF_JG3lYIPAId1kyjacCGZTn0k_azoxoSOUCFXoODZN9qh5FL5R21JwN_fZgbvi39zOifQkkW4cBfhzxTD-AlJ-oNVi2Dk8FEUZLwyWSLh5CQKw3c2L8VYBzpuvAbrPJvK90xsj
+server:
+  port: 8082
